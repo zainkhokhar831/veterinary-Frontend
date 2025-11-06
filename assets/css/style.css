@@ -11943,6 +11943,7 @@ textarea.form-control-lg {
   color: #fff;
   border-color: none;
   outline: none;
+  align-content: end;
 }
 .yellow-btn:hover {
   background-color: #00bec9;
@@ -11991,35 +11992,15 @@ textarea.form-control-lg {
   color: #313243;
 }
 
-.display-4 {
-  margin-bottom: 1rem;
-  font-family: "Poppins", sans-serif;
-}
-.display-4--intro {
-  display: inline-block;
-  font-weight: 450;
-  font-family: "Poppins", sans-serif;
-  font-size: 2.5rem;
-  margin-top: 1.7rem;
-}
-.display-4--description {
-  font-size: 2rem;
-  display: block;
-  margin-top: 0.5rem;
-  text-transform: none;
-  font-weight: 400;
-  margin-bottom: 1.5rem;
-}
-
 .logo {
-  width: 130px;
+  width: 15%;
 }
 
 .menu {
   background-color: #d79a01;
 }
 .menu li {
-  margin-left: 1.5rem;
+  margin-left: 4rem;
   font-size: 1.2rem;
   font-family: "Poppins", sans-serif;
 }
@@ -12033,8 +12014,10 @@ textarea.form-control-lg {
   color: #000;
 }
 
-.navbar-collapse {
-  margin-left: 2rem;
+.navbar-nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .form-control {
@@ -12141,8 +12124,8 @@ textarea.form-control-lg {
   width: 200px;
   height: 180px;
   background-color: #fcc302;
-  border-radius: 0.5rem;
   z-index: 1;
+  border-radius: 0.75rem;
 }
 .about .video-box a {
   position: absolute;
@@ -12205,8 +12188,8 @@ textarea.form-control-lg {
     margin-top: 2rem;
   }
   .about .video-box .yellow-box {
-    left: 50%;
-    transform: translateX(-50%);
+    left: -20px;
+    bottom: -20px;
   }
 }
 @media (max-width: 576px) {
@@ -12221,17 +12204,65 @@ textarea.form-control-lg {
     font-size: 2.5rem;
   }
   .about .video-box .yellow-box {
+    left: -15px;
+    bottom: -15px;
+  }
+}
+
+.yellow-box-alt {
+  position: absolute;
+  bottom: -25px;
+  right: -28px;
+  width: 200px;
+  height: 180px;
+  background-color: #fcc302;
+  z-index: 1;
+  border-radius: 0.75rem;
+}
+
+.video-box2 a i {
+  color: #fcc302;
+  font-size: 3rem;
+  transform: scaleX(-1);
+  transition: transform 0.6s ease-in-out;
+}
+
+.video-box2 a:hover i {
+  transform: rotate(360deg);
+}
+
+@media (max-width: 992px) {
+  .yellow-box-alt {
+    right: -20px;
+    bottom: -20px;
+  }
+}
+@media (max-width: 576px) {
+  .yellow-box-alt {
+    right: -15px;
+    bottom: -15px;
     width: 150px;
     height: 130px;
   }
 }
-
 .services {
   padding-top: 4rem;
+  font-family: "Poppins", sans-serif;
   padding-bottom: 3rem;
 }
+.services h3 {
+  color: #fff;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  padding-top: 2rem;
+}
+.services span p {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
 .services img {
-  border: 0.7rem solid white;
+  border: 0.4rem solid white;
 }
 
 /*# sourceMappingURL=style.css.map */

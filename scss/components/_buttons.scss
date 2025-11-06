@@ -22,8 +22,10 @@
     color: $white;
     border-color: none;
     outline: none;
+    align-content: end;
     &:hover{
          background-color: $Turquoise-Blue;
+      
     }
    }
 

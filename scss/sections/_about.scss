@@ -5,7 +5,7 @@
   padding: 8rem 0 4rem 0;
   width: 100%;
 
-
+ 
   .video-box {
     position: relative;
     display: inline-block;
@@ -24,7 +24,7 @@
       content: "";
       position: absolute;
       inset: 0;
-      background-color: rgba($primary, 0.45); // halka yellow tint
+      background-color: rgba($primary, 0.45);
       border-radius: 0.75rem;
       z-index: 3;
       pointer-events: none;
@@ -33,13 +33,13 @@
     // yellow box behind image
     .yellow-box {
       position: absolute;
-      bottom: -25px;
-      left: -28px;
-      width: 200px;
-      height: 180px;
+      bottom: -25px; 
+      left: -28px;   
+      width: 200px; 
+      height: 180px; 
       background-color: $primary;
-      border-radius: 0.5rem;
       z-index: 1;
+      border-radius: 0.75rem;
     }
 
     // play button
@@ -68,7 +68,7 @@
       }
     }
 
-    // white border animation (visible always)
+    // white border animation
     .border-animation {
       position: absolute;
       top: 50%;
@@ -110,8 +110,8 @@
       margin-top: 2rem;
 
       .yellow-box {
-        left: 50%;
-        transform: translateX(-50%);
+        left: -20px;   // responsive adjustment
+        bottom: -20px; // responsive adjustment
       }
     }
   }
@@ -132,9 +132,56 @@
       }
 
       .yellow-box {
-        width: 150px;
-        height: 130px;
+        left: -15px;   // mobile adjustment
+        bottom: -15px; // mobile adjustment
       }
     }
   }
 }
+
+
+
+// ABOUT 2 SECTION 
+
+// Alternate yellow box (right corner)
+.yellow-box-alt {
+  position: absolute;
+  bottom: -25px; 
+  right: -28px;   
+  width: 200px; 
+  height: 180px; 
+  background-color: $primary;
+  z-index: 1;
+  border-radius: 0.75rem;
+}
+
+// Play icon flip by default
+.video-box2 a i {
+  color: $primary;
+  font-size: 3rem;
+  transform: scaleX(-1); // ✅ icon flipped by default
+  transition: transform 0.6s ease-in-out;
+}
+
+// On hover — rotate + back to normal side
+.video-box2 a:hover i {
+  transform: rotate(360deg); // ✅ normal + rotation on hover
+}
+
+// Responsive adjustments
+@media (max-width: 992px) {
+  .yellow-box-alt {
+    right: -20px;
+    bottom: -20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .yellow-box-alt {
+    right: -15px;
+    bottom: -15px;
+    width: 150px;
+    height: 130px;
+  }
+}
+

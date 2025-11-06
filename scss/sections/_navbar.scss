@@ -1,23 +1,23 @@
 @use '../custom' as *;
 
 .logo {
-  width: 130px;
+  width: 15%;
 }
 
 .menu {
   background-color: $golden-yellow;
 
   li {
-    margin-left: 1.5rem;
+    margin-left: 4rem;
     font-size: 1.2rem;
-    font-family: "Poppins", sans-serif;
 
+    font-family: "Poppins", sans-serif;
+    
     a {
       color: $white;
       line-height: 3rem;
       text-transform: capitalize;
       font-weight: 400;
-
       &:hover {
         color: $black;
       }
@@ -25,9 +25,13 @@
   }
 }
 
-.navbar-collapse {
-  margin-left: 2rem;
+
+.navbar-nav {
+  margin: 0 auto ;
+  display: flex;
+  justify-content: center;
 }
+
 
 .form-control {
   border: none;
