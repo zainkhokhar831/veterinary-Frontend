@@ -1,0 +1,52 @@
+@use '../custom' as *;
+
+.logo {
+  width: 130px;
+}
+
+.menu {
+  background-color: $golden-yellow;
+
+  li {
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+
+    a {
+      color: $white;
+      line-height: 3rem;
+      text-transform: capitalize;
+      font-weight: 400;
+
+      &:hover {
+        color: $black;
+      }
+    }
+  }
+}
+
+.navbar-collapse {
+  margin-left: 2rem;
+}
+
+.form-control {
+  border: none;
+  background-color: $primary;
+  width: 60%;
+  color: $white;
+}
+
+::placeholder {
+  color: $white !important;
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background-color: $golden-yellow;
+    padding: 1rem;
+  }
+  .form-control {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}

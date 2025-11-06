@@ -1,0 +1,71 @@
+// Text left se fade-in
+.fade-left {
+  opacity: 0;
+  transform: translateX(-60px);
+  animation: fadeLeft 1s ease forwards;
+}
+
+// Image right se fade-in
+.fade-right {
+  opacity: 0;
+  transform: translateX(60px);
+  animation: fadeRight 3s ease forwards;
+}
+
+// Buttons fade hone ke liye
+.fade-delay-1 {
+  opacity: 0;
+  animation: fadeIn 2s ease forwards;
+  animation-delay: 1s;
+}
+
+.fade-delay-2 {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 1.5s;
+}
+
+// --- Keyframes ---
+@keyframes fadeLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeRight {
+  from {
+    opacity: 0;
+    transform: translateX(60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+// play button 
+
+@keyframes pulse-border {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
