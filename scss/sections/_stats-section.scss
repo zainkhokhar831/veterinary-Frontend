@@ -1,0 +1,75 @@
+.stats-section {
+  position: relative;
+  width: 100%;
+  height: 550px;
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+
+  // 🖼 Background image
+  .bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  // 🟡 Yellow overlay
+  .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 193, 7, 0.85);
+    z-index: 1;
+  }
+
+  // 📊 Foreground content
+  .content {
+    position: relative;
+    z-index: 2;
+
+    .row {
+      height: 100%;
+      align-items: center;
+    }
+
+    .stat-item {
+      text-align: center;
+      color: #fff;
+
+      .icon-box {
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      i {
+        font-size: 3rem;
+        color: #fff;
+        display: block;
+        transition: transform 0.3s ease;
+        margin-bottom: 1.5rem;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+
+      h4 {
+        font-weight: 700;
+        font-size: 1.8rem;
+        margin-bottom: 0.3rem;
+      }
+
+      p {
+        font-weight: 700;
+        margin: 0;
+        font-size: 2rem;
+
+      }
+    }
+  }
+}
