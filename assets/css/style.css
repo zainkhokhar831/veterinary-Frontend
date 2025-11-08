@@ -11932,7 +11932,7 @@ textarea.form-control-lg {
   color: white;
 }
 
-.btn-2 {
+.btn-1 {
   background-color: #fcc302;
   border-color: #fff;
   border-width: 0.1rem;
@@ -11947,6 +11947,31 @@ textarea.form-control-lg {
 }
 .yellow-btn:hover {
   background-color: #00bec9;
+}
+
+/* 2 */
+.btn-3 {
+  background: #00bec9;
+  background: #00bec9;
+  border: none;
+}
+
+.btn-3:before {
+  height: 0%;
+  width: 2px;
+}
+
+.btn-3:hover {
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5), -4px -4px 6px 0 rgba(116, 125, 136, 0.5), inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2), inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+.btn-1:before {
+  height: 0%;
+  width: 2px;
+}
+
+.btn-1:hover {
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5), -4px -4px 6px 0 rgba(116, 125, 136, 0.5), inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2), inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
 }
 
 .display-2 {
@@ -12263,6 +12288,68 @@ textarea.form-control-lg {
 }
 .services img {
   border: 0.4rem solid white;
+}
+
+.pricing {
+  padding-top: 4rem;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 3rem;
+}
+.pricing h3 {
+  color: #fff;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  padding-top: 2rem;
+}
+.pricing span p {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+.pricing img {
+  border: 0.4rem solid white;
+}
+.pricing button {
+  margin-bottom: 2.5rem;
+}
+
+.team {
+  padding-top: 4rem;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 3rem;
+}
+.team h3 {
+  color: #313243;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  padding-top: 2rem;
+}
+.team span p {
+  color: #313243;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.team img {
+  border: 0.4rem solid white;
+}
+.team .social-icons {
+  margin-top: 0.5rem;
+}
+.team .social-icons .social {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #ffc107;
+  color: #ffffff;
+  font-size: 1.1rem;
+  transition: all 0.3s;
+}
+.team .social-icons .social:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=style.css.map */

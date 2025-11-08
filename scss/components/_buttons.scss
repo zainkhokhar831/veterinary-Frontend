@@ -11,11 +11,13 @@
     }
    }
 
-   .btn-2{
+   .btn-1{
     background-color: $primary;
     border-color: $white;
     border-width: 0.1rem;
    }
+
+   
    
    .yellow-btn{
     background-color: $primary;
@@ -29,5 +31,35 @@
     }
    }
 
+  /* 2 */
+.btn-3 {
+  background: $Turquoise-Blue;
+  background: $Turquoise-Blue;
+  border: none;
   
+}
+.btn-3:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-3:hover {
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+
+.btn-1:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-1:hover {
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+    
+}
+
  

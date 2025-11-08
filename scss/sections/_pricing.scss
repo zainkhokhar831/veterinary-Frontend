@@ -1,0 +1,30 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.pricing{
+    padding-top: 4rem;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 3rem;
+    h3{
+        color: $white;
+        font-size: 2rem;
+        font-family: "Poppins", sans-serif;
+        padding-top: 2rem;
+      
+    }
+    span{
+        p{
+            color: $white;
+            font-size: 1.4rem;
+            font-weight: 300;
+        }
+    }
+    
+    img{
+        border: 0.4rem solid white;
+    }
+
+    button{
+        margin-bottom: 2.5rem;
+    }
+}

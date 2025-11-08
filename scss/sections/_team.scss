@@ -1,0 +1,47 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.team{
+    padding-top: 4rem;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 3rem;
+    h3{
+        color: $Gunmetal;
+        font-size: 2rem;
+        font-family: "Poppins", sans-serif;
+        padding-top: 2rem;
+      
+    }
+    span{
+        p{
+            color: $Gunmetal;
+            font-size: 1.4rem;
+            text-transform: uppercase;
+            font-weight: 300;
+        }
+    }
+    
+    img{
+        border: 0.4rem solid white;
+    }
+
+     .social-icons {
+    margin-top: 0.5rem;
+
+    .social {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background: $yellow;
+      color: #ffffff;
+      font-size: 1.1rem;
+      transition: all 0.3s;
+
+      &:hover {
+        transform: scale(1.1);
+      }}}
+
+}
