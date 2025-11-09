@@ -12465,6 +12465,7 @@ textarea.form-control-lg {
 .blog-section .blog-card .blog-content .read-more {
   color: #00bec9;
   font-weight: 700;
+  font-size: 1.3rem;
   text-decoration: none;
   transition: 0.3s ease;
 }
