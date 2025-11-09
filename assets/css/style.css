@@ -12531,8 +12531,12 @@ footer {
   background-color: #343434;
   font-family: "Poppins", sans-serif;
 }
-footer .col-md-2 {
-  margin-bottom: 7rem;
+footer .col-md-4 {
+  margin-bottom: 5rem;
+}
+footer .last-pera {
+  margin-top: -1.3rem;
+  margin-bottom: 2.7rem;
 }
 footer h3 {
   margin-top: 6rem;
@@ -12555,11 +12559,39 @@ footer li a:hover {
   text-decoration: underline;
   color: #fcc302;
 }
-footer li a .form-control {
+footer .form-control-2 {
   border: none;
   background-color: #fcc302;
   width: 60%;
+  padding-left: 0.5rem;
   color: #fff;
+}
+footer .social-icons {
+  margin-top: 2rem;
+}
+footer .social-icons .social {
+  display: inline-flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  width: 6%;
+  height: 6%;
+  border-radius: 50%;
+  background: #fff;
+  color: #000;
+  font-size: 1rem;
+}
+footer .social-icons .social:hover {
+  color: #fcc302;
+}
+
+.footer-bottom__copyrights {
+  color: #fff;
+}
+.footer-bottom__copyrights a {
+  color: #ffc107;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */
