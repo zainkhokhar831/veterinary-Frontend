@@ -1,14 +1,39 @@
-@use '../custom'as *;
+@use "../custom" as *;
 
-footer{
-    background-color: $footer;
-    font-family: "Poppins", sans-serif;
-    p{
-        text-transform: capitalize;
-        line-height: 0.8rem;
+footer {
+  background-color: $footer;
+  font-family: "Poppins", sans-serif;
+
+  .col-md-2 {
+    margin-bottom: 7rem;
+  }
+  h3 {
+    margin-top: 6rem;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+  }
+  li {
+    list-style: none;
+    a {
+      text-transform: capitalize;
+      text-decoration: none;
+      color: $white;
+      font-size: 1.2rem;
+      font-weight: 300;
+      line-height: 1.9rem;
+
+      &:hover {
+        text-decoration: underline;
+        color: $Yellow;
+      }
+
+      .form-control {
+        border: none;
+        background-color: $primary;
+        width: 60%;
+        color: $white;
+      }
     }
-
-    
- 
-
+  }
 }
