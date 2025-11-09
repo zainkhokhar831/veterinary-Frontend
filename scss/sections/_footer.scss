@@ -1,0 +1,14 @@
+@use '../custom'as *;
+
+footer{
+    background-color: $footer;
+    font-family: "Poppins", sans-serif;
+    p{
+        text-transform: capitalize;
+        line-height: 0.8rem;
+    }
+
+    
+ 
+
+}

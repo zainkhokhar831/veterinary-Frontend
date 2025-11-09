@@ -12474,4 +12474,13 @@ textarea.form-control-lg {
   color: #00bec9;
 }
 
+footer {
+  background-color: #343434;
+  font-family: "Poppins", sans-serif;
+}
+footer p {
+  text-transform: capitalize;
+  line-height: 0.8rem;
+}
+
 /*# sourceMappingURL=style.css.map */
